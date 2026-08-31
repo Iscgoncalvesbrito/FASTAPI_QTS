@@ -12,5 +12,6 @@ from app.vendas.desconto import calcular_desconto
         (100.0, "   vale10  ", 10.0)
     ],
 )
+
 def test_calcular_desconto_funcional(valor_compra, cupom, desconto_esperado):
     assert calcular_desconto(valor_compra, cupom) == desconto_esperado
