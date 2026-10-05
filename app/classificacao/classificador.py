@@ -1,8 +1,8 @@
-def  classificador_nota(nota: float) -> str:
-    if nota < 0 or nota > 10 :
-        return "Nota invalida"
+def classificador_nota(nota: float) -> str:
+    if nota < 0 or nota > 10:
+        return "nota invalida"
     if nota >= 7:
-        return "Aprovado"
+        return "aprovado"
     if nota >= 5:
-        return "Recuperacao"
-    return "Reprovado"
+        return "recuperacao"
+    return "reprovado"
