@@ -29,3 +29,4 @@ def processar_venda(
         "taxa_embalagem": taxa_embalagem,
         "total_final": total_final,
     }
+
